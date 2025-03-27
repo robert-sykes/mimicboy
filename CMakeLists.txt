@@ -3,4 +3,7 @@ project(mimicboy)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(mimicboy src/main.cc)
+add_executable(mimicboy
+        src/main.cc
+        src/Memory.cc
+)
