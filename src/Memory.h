@@ -32,11 +32,7 @@ namespace MimicBoy {
         std::array<uint8_t, MemorySize> memory = {};
 
     public:
-        Memory() = default; /**
-         * Default constructor for the Memory class.
-         *
-         * @return A default-initialized instance of the Memory class.
-         */
+        Memory() = default;
     };
 }
 
