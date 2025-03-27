@@ -1,8 +1,6 @@
 # MimicBoy - GameBoy Emulator
 
-**MimicBoy** is a modern and efficient GameBoy emulator written in C++23. Its goal is to provide an authentic and
-high-performance emulation experience while maintaining clean, maintainable code. The project is in very early
-development, and many features are still a work in progress.
+Create a build directory: [Official Documentation](https://robert-sykes.github.io/mimicboy/)
 
 ## 🛠️ Getting Started
 
