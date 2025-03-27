@@ -30,6 +30,7 @@ namespace MimicBoy {
          * initialized to zero, with a size defined by the constant MemorySize.
          */
         std::array<uint8_t, MemorySize> memory = {};
+
     public:
         Memory() = default; /**
          * Default constructor for the Memory class.
