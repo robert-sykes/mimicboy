@@ -8,7 +8,6 @@ PROJECT_LOGO           = ""   # Path to logo (optional)
 # Output directory for documentation
 OUTPUT_DIRECTORY       = docs
 CREATE_SUBDIRS         = YES
-HTML_OUTPUT            = html
 LATEX_OUTPUT           = latex
 GENERATE_HTML          = YES
 GENERATE_LATEX         = NO   # Disable LaTeX output, but can be enabled if needed

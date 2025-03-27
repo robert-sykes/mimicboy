@@ -23,5 +23,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # Deploy to the GitHub Pages branch
-          folder: ./  # This is where Doxygen output is stored
+          folder: docs  # This is where Doxygen output is stored
           token: '${{ secrets.GH_TOKEN }}'
