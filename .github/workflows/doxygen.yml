@@ -19,6 +19,11 @@ jobs:
       - name: Generate Documentation
         run: doxygen Doxyfile
 
+      - name: Move HTML output to docs folder
+        run: |
+          mkdir -p docs
+          mv html/* docs/
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
