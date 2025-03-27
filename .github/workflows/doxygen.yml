@@ -3,7 +3,7 @@ name: Generate and Deploy Doxygen Docs
 on:
   push:
     branches:
-      - main  # Runs this workflow on pushes to the main branch
+      - master  # Runs this workflow on pushes to the main branch
 
 jobs:
   build:
