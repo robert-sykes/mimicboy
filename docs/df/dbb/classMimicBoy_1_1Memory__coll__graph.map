@@ -1,0 +1,7 @@
+<map id="MimicBoy::Memory" name="MimicBoy::Memory">
+<area shape="rect" id="Node000001" title="Represents a memory management system with fixed size." alt="" coords="125,93,273,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,173,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,37,185,91,182,95,113,41"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="198,5,418,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,41,215,95,212,91,281,37"/>
+</map>
