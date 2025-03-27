@@ -24,3 +24,4 @@ jobs:
         with:
           branch: gh-pages  # Deploy to the GitHub Pages branch
           folder: docs  # This is where Doxygen output is stored
+          token: '${{ secrets.GH_TOKEN }}'
