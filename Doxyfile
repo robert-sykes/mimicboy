@@ -1,0 +1,55 @@
+# Doxyfile 1.9.1
+
+# General settings
+PROJECT_NAME           = "MimicBoy"
+PROJECT_BRIEF          = "GameBoy Emulator written in C++"
+PROJECT_LOGO           = ""   # Path to logo (optional)
+
+# Output directory for documentation
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = YES
+HTML_OUTPUT            = html
+LATEX_OUTPUT           = latex
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO   # Disable LaTeX output, but can be enabled if needed
+
+# File patterns to include
+FILE_PATTERNS          = *.cpp *.h *.hpp *.cc *.hh
+EXTENSION_MAPPING      = cpp=C++ h=HPP
+
+# Input directory (can be multiple directories)
+INPUT                  = src include
+
+# Recurse into subdirectories
+RECURSIVE              = YES
+
+# Extract all entities (classes, functions, etc.)
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_ANON_NSES     = YES
+
+# Enable graph generation (for call graphs, class diagrams, etc.)
+HAVE_DOT               = YES
+DOT_PATH               = /usr/bin/dot   # Adjust if Graphviz is not in this location
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = YES
+
+# Graphs (inheritance, collaboration diagrams)
+HIDE_UNDOC_RELATIONS  = NO
+TEMPLATES_EXPORT      = YES
+
+# Enable C++ specific parsing
+OPTIMIZE_OUTPUT_JAVA  = NO
+SOURCE_BROWSER         = YES
+INLINE_INHERITED_MEMBERS = YES
+INCLUDE_TEMPLATES      = YES
+
+# Additional settings for better documentation
+GENERATE_TREEVIEW      = YES
+ALPHABETICAL_INDEX     = YES
+FILE_VERSION_FILTER    = ""  # Can be used to exclude certain files
+
+# Markdown support for README files and other docs
+MARKDOWN_SUPPORT       = YES
