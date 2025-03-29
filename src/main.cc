@@ -9,6 +9,8 @@
 int main() {
     MimicBoy::Memory memory;
 
+    return memory.read(0xFFFF);
+
     return 0;
 }
 
