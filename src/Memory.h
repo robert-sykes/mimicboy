@@ -3,6 +3,7 @@
 
 #include <array>
 #include <cstdint>
+#include <stdexcept>
 
 namespace MimicBoy {
     /**
@@ -33,6 +34,45 @@ namespace MimicBoy {
 
     public:
         Memory() = default;
+
+        /**
+         * @brief Reads a byte from the memory at the specified address.
+         *
+         * This method retrieves the value stored at the given memory address.
+         * If the provided address is out of the valid memory range, an exception
+         * is thrown.
+         *
+         * @param address The memory address to read from. Must be within the valid range.
+         * @return The byte value stored at the specified memory address.
+         * @throws std::out_of_range If the address is outside the valid memory range.
+         */
+        [[nodiscard]] uint8_t read(const uint16_t address) const {
+            if (address >= MemorySize) {
+                throw std::out_of_range("Memory::read: Address out of range.");
+            }
+
+            return memory[address];
+        }
+
+        /**
+         * @brief Writes a value to a specific memory address.
+         *
+         * This method stores a given value at the specified address in memory.
+         * It ensures the address is within the valid memory range and throws
+         * an exception if the address is out of bounds.
+         *
+         * @param address The memory address to write to.
+         * @param value The value to store at the specified address.
+         *
+         * @throw std::out_of_range If the address is outside the valid memory range.
+         */
+        void write(const uint16_t address, const uint8_t value) {
+            if (address >= MemorySize) {
+                throw std::out_of_range("Memory::write: Address out of range.");
+            }
+
+            memory[address] = value;
+        }
     };
 }
 
