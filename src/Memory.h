@@ -43,9 +43,9 @@ namespace MimicBoy {
          * @param address The memory address to read from. Must be within the valid range.
          * @return The byte value stored at the specified memory address.
          */
-         uint8_t read(const uint16_t address) const {
+         [[nodiscard]] uint8_t read(const uint16_t address) const {
             return memory[address];
-        }
+         }
 
         /**
          * @brief Writes a value to a specific memory address.

@@ -2,8 +2,11 @@
 #define CPU_H
 
 #include <cstdint>
+#include <functional>
+#include <unordered_map>
 #include "Registers.h"
 #include "CPUFlag.h"
+#include "Memory.h"
 
 namespace MimicBoy {
     class CPU {
@@ -13,11 +16,18 @@ namespace MimicBoy {
 
         Registers registers;
         CPUFlag flag;
+        Memory& memory;
+
+        std::unordered_map<uint16_t, std::function<void()>> opcodesMap;
     public:
-        CPU() = default;
+        CPU(Memory& memory);
 
         Registers& getRegisters() { return registers; }
         CPUFlag& getFlag() { return flag; }
+
+        void execute();
+    private:
+        void nop();
     };
 }
 

@@ -1,5 +1,5 @@
-#include <iostream>
 #include "Memory.h"
+#include "CPU.h"
 
 /**
  * The main entry point of the program.
@@ -8,8 +8,9 @@
  */
 int main() {
     MimicBoy::Memory memory;
+    MimicBoy::CPU cpu(memory);
 
-    return memory.read(0xFFFF);
+    cpu.execute();
 
     return 0;
 }
