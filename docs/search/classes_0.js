@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['memory_0',['Memory',['../dc/d59/classMimicBoy_1_1Memory.html',1,'MimicBoy']]]
+  ['cpu_0',['CPU',['../da/d2b/classMimicBoy_1_1CPU.html',1,'MimicBoy']]]
 ];
