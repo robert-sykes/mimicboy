@@ -20,11 +20,11 @@ namespace MimicBoy {
 
         std::unordered_map<uint16_t, std::function<void()>> opcodesMap;
     public:
-        CPU(Memory& memory);
+        explicit CPU(Memory& memory);
 
         Registers& getRegisters() { return registers; }
         CPUFlag& getFlag() { return flag; }
-
+        
         void execute();
     private:
         void nop();

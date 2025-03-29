@@ -19,6 +19,7 @@ add_executable(mimicboy
 )
 
 add_executable(mimicboy_test
+        tests/unit/CPUTest.cc
         tests/unit/MemoryTest.cc
 )
 
@@ -30,3 +31,4 @@ target_link_libraries(mimicboy_test PRIVATE GTest::GTest GTest::Main pthread)
 
 # Register the test with CTest
 add_test(NAME MemoryTest COMMAND MemoryTest)
+add_test(NAME CPUTest COMMAND CPUTest)
