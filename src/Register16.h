@@ -1,16 +1,18 @@
-#ifndef REGISTER_H
-#define REGISTER_H
+#ifndef REGISTER16_H
+#define REGISTER16_H
+
+#include <cstdint>
 
 namespace MimicBoy {
-    class Register {
+    class Register16 {
     private:
         uint16_t value;
 
     public:
-        Register() : value(0x0000) {
+        Register16() : value(0x0000) {
         }
 
-        explicit Register(const uint16_t val) : value(val) {
+        explicit Register16(const uint16_t val) : value(val) {
         }
 
         [[nodiscard]] uint16_t get() const { return value; }
@@ -21,17 +23,17 @@ namespace MimicBoy {
         void setLow(const uint8_t val) { this->value = (this->value & 0xFF00) | val; }
         void setHigh(const uint8_t val) { this->value = (this->value & 0x00FF) | (val << 8); }
 
-        Register &operator++() {
+        Register16 &operator++() {
             ++value;
             return *this;
         }
 
-        Register operator++(int) {
-            Register temp = *this;
+        Register16 operator++(int) {
+            Register16 temp = *this;
             ++value;
             return temp;
         }
     };
 }
 
-#endif //REGISTER_H
+#endif //REGISTER16_H

@@ -3,7 +3,10 @@
 namespace MimicBoy {
     CPU::CPU(Memory& memory) : memory(memory) {
         this->opcodesMap = std::unordered_map<uint16_t, std::function<void()>>{
-            {0x00, [this] { nop(); }}
+            {0x00, [this] { nop(); }},
+
+            // LD R8, R8
+            {0x40, [this] { ldr8r8(this->B, this->C); }},
         };
     }
 

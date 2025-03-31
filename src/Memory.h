@@ -4,6 +4,7 @@
 #include <array>
 #include <cstdint>
 #include <stdexcept>
+#include <vector>
 
 namespace MimicBoy {
     /**
@@ -59,6 +60,16 @@ namespace MimicBoy {
         void write(const uint16_t address, const uint8_t value) {
             memory[address] = value;
         }
+
+        void load(const std::vector<uint8_t>& data, uint16_t startAddress = 0x0000) {
+             if (startAddress + data.size() > MemorySize) {
+                 throw std::out_of_range("Data exceeds available memory.");
+             }
+
+             for (unsigned char i : data) {
+                 memory[startAddress] = i;
+             }
+         }
     };
 }
 
