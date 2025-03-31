@@ -7,9 +7,11 @@ namespace MimicBoy {
         uint16_t value;
 
     public:
-        Register() : value(0x0000) {}
+        Register() : value(0x0000) {
+        }
 
-        explicit Register(const uint16_t val) : value(val) {}
+        explicit Register(const uint16_t val) : value(val) {
+        }
 
         [[nodiscard]] uint16_t get() const { return value; }
         [[nodiscard]] uint8_t getLow() const { return value & 0xFF; }
@@ -19,7 +21,7 @@ namespace MimicBoy {
         void setLow(const uint8_t val) { this->value = (this->value & 0xFF00) | val; }
         void setHigh(const uint8_t val) { this->value = (this->value & 0x00FF) | (val << 8); }
 
-        Register& operator++() {
+        Register &operator++() {
             ++value;
             return *this;
         }
