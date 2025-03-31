@@ -2,87 +2,33 @@
 #define REGISTER_H
 
 namespace MimicBoy {
-    template<typename T>
     class Register {
-        /**
-         * @brief Represents a generic container for a value.
-         *
-         * This variable is a template instance which can hold a value of any type.
-         * The specific type of the value is determined at compile time when
-         * the variable is instantiated.
-         */
     private:
-        T value;
-        /**
-         * Default constructor for the Register class.
-         * Initializes the value to 0.
-         *
-         * @return An instance of the Register class with value set to 0.
-         */
+        uint16_t value;
+
     public:
-        Register() : value(0) {
-        }
+        Register() : value(0x0000) {}
 
-        explicit Register(T val) : value(val) {
-        }
+        explicit Register(const uint16_t val) : value(val) {}
 
-        /**
-         * Retrieves the stored value.
-         *
-         * @return The current value of type T.
-         */
-        T getValue() const { return value; }
-        /**
-         * Sets the value of the object.
-         *
-         * @param val The value to set of type T.
-         */
-        void setValue(T val) { this->value = val; }
+        [[nodiscard]] uint16_t get() const { return value; }
+        [[nodiscard]] uint8_t getLow() const { return value & 0xFF; }
+        [[nodiscard]] uint8_t getHigh() const { return (value >> 8) & 0xFF; }
 
-        Register<T> &operator++() {
+        void set(const uint16_t val) { this->value = val; }
+        void setLow(const uint8_t val) { this->value = (this->value & 0xFF00) | val; }
+        void setHigh(const uint8_t val) { this->value = (this->value & 0x00FF) | (val << 8); }
+
+        Register& operator++() {
             ++value;
             return *this;
         }
 
-        Register<T> operator++(int) {
-            Register<T> temp = *this;
+        Register operator++(int) {
+            Register temp = *this;
             ++value;
             return temp;
         }
-
-        Register<T> &operator--() {
-            --value;
-            return *this;
-        }
-
-        Register<T> operator--(int) {
-            Register<T> temp = *this;
-            --value;
-            return temp;
-        }
-
-        Register<T> &operator=(T val) {
-            value = val;
-            return *this;
-        }
-
-        Register<T> &operator|=(T val) {
-            value |= val;
-            return *this;
-        }
-
-        Register<T> &operator&=(T val) {
-            value &= val;
-            return *this;
-        }
-
-        Register<T> &operator^=(T val) {
-            value ^= val;
-            return *this;
-        }
-
-        bool operator==(T val) const { return value == val; }
-        bool operator!=(T val) const { return value != val; }
     };
 }
 

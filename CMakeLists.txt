@@ -14,6 +14,7 @@ add_executable(mimicboy
         src/main.cc
         src/Memory.cc
         src/CPU.cc
+        src/CPU_Load.cc
 )
 
 add_executable(mimicboy_test

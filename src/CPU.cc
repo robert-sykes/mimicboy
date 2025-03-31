@@ -8,7 +8,7 @@ namespace MimicBoy {
     }
 
     void CPU::execute() {
-        uint8_t opcode = this->memory.read(this->PC.getValue());
+        uint8_t opcode = this->memory.read(this->PC.get());
 
         if (this->opcodesMap.contains(opcode)) {
             this->opcodesMap[opcode]();

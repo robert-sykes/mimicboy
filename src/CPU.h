@@ -11,11 +11,12 @@
 namespace MimicBoy {
     class CPU {
     private:
-        Register<uint8_t> PC{0x0000};
-        uint16_t SP = 0xFFFE;
-        Register<uint8_t> A{0x00}, B{0x00}, C{0x00}, D{0x00}, E{0x00}, H{0x00}, L{0x00}, F{0x00};
+        Register PC{0x0000};
+        Register SP{0xFFFE};
+        Register AF{0x0000}, BC{0x0000}, DE{0x0000}, HL{0x0000};
 
         CPUFlag flag;
+
         Memory& memory;
 
         std::unordered_map<uint16_t, std::function<void()>> opcodesMap;
@@ -27,6 +28,8 @@ namespace MimicBoy {
         void execute();
     private:
         void nop();
+
+        void ld(Register &left, Register &right);
     };
 }
 
