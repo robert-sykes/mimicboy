@@ -20,8 +20,11 @@ namespace MimicBoy {
          * @return An instance of the Register class with value set to 0.
          */
     public:
-        Register() : value(0) {}
-        explicit Register(T val) : value(val) {}
+        Register() : value(0) {
+        }
+
+        explicit Register(T val) : value(val) {
+        }
 
         /**
          * Retrieves the stored value.
@@ -36,17 +39,47 @@ namespace MimicBoy {
          */
         void setValue(T val) { this->value = val; }
 
-        Register<T>& operator++() { ++value; return *this; }
-        Register<T> operator++(int) { Register<T> temp = *this; ++value; return temp; }
+        Register<T> &operator++() {
+            ++value;
+            return *this;
+        }
 
-        Register<T>& operator--() { --value; return *this; }
-        Register<T> operator--(int) { Register<T> temp = *this; --value; return temp; }
+        Register<T> operator++(int) {
+            Register<T> temp = *this;
+            ++value;
+            return temp;
+        }
 
-        Register<T>& operator=(T val) { value = val; return *this; }
+        Register<T> &operator--() {
+            --value;
+            return *this;
+        }
 
-        Register<T>& operator|=(T val) { value |= val; return *this; }
-        Register<T>& operator&=(T val) { value &= val; return *this; }
-        Register<T>& operator^=(T val) { value ^= val; return *this; }
+        Register<T> operator--(int) {
+            Register<T> temp = *this;
+            --value;
+            return temp;
+        }
+
+        Register<T> &operator=(T val) {
+            value = val;
+            return *this;
+        }
+
+        Register<T> &operator|=(T val) {
+            value |= val;
+            return *this;
+        }
+
+        Register<T> &operator&=(T val) {
+            value &= val;
+            return *this;
+        }
+
+        Register<T> &operator^=(T val) {
+            value ^= val;
+            return *this;
+        }
 
         bool operator==(T val) const { return value == val; }
         bool operator!=(T val) const { return value != val; }
