@@ -9,7 +9,7 @@
 int main() {
     MimicBoy::Memory memory;
     memory.load({
-        { 0x0000, 0x40 }
+        {0x0000, 0x40}
     });
 
     MimicBoy::CPU cpu(memory);

@@ -61,15 +61,15 @@ namespace MimicBoy {
             memory[address] = value;
         }
 
-        void load(const std::vector<uint8_t>& data, uint16_t startAddress = 0x0000) {
-             if (startAddress + data.size() > MemorySize) {
-                 throw std::out_of_range("Data exceeds available memory.");
-             }
+        void load(const std::vector<uint8_t> &data, uint16_t startAddress = 0x0000) {
+            if (startAddress + data.size() > MemorySize) {
+                throw std::out_of_range("Data exceeds available memory.");
+            }
 
-             for (unsigned char i : data) {
-                 memory[startAddress] = i;
-             }
-         }
+            for (unsigned char i: data) {
+                memory[startAddress] = i;
+            }
+        }
     };
 }
 

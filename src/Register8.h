@@ -7,6 +7,7 @@ namespace MimicBoy {
     class Register8 {
     private:
         uint8_t value;
+
     public:
         Register8() : value(0x00) {
         }
