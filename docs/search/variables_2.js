@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['de_0',['DE',['../da/d2b/classMimicBoy_1_1CPU.html#a72cd62fdab821438af819eced61c4c3c',1,'MimicBoy::CPU']]]
+  ['c_0',['C',['../da/d2b/classMimicBoy_1_1CPU.html#adc5cf0896beee6647792be8c951e7920',1,'MimicBoy::CPU']]]
 ];

@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a259252a1122b4ab09adf6405f6507d30" id="r_a259252a1122b4ab09adf6405f6507d30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#a259252a1122b4ab09adf6405f6507d30">write</a> (const uint16_t address, const uint8_t value)</td></tr>
 <tr class="memdesc:a259252a1122b4ab09adf6405f6507d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a value to a specific memory address.  <br /></td></tr>
 <tr class="separator:a259252a1122b4ab09adf6405f6507d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686c672142ac4cc0360d74b74a7eea83" id="r_a686c672142ac4cc0360d74b74a7eea83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#a686c672142ac4cc0360d74b74a7eea83">load</a> (const std::vector&lt; uint8_t &gt; &amp;data, uint16_t startAddress=0x0000)</td></tr>
+<tr class="separator:a686c672142ac4cc0360d74b74a7eea83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -143,7 +145,7 @@ Static Private Attributes</h2></td></tr>
 <div class="textblock"><p>Represents a memory management system with fixed size. </p>
 <p>This class provides an abstraction for a memory module, offering storage and initialization for a pre-defined size of memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00016">16</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00017">17</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8a5ed31b6b8ad8cd6c7afca3df070528" name="a8a5ed31b6b8ad8cd6c7afca3df070528"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a5ed31b6b8ad8cd6c7afca3df070528">&#9670;&#160;</a></span>Memory()</h2>
@@ -171,6 +173,54 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a686c672142ac4cc0360d74b74a7eea83" name="a686c672142ac4cc0360d74b74a7eea83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a686c672142ac4cc0360d74b74a7eea83">&#9670;&#160;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MimicBoy::Memory::load </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; uint8_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>startAddress</em> = <code>0x0000</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00064">64</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d59/classMimicBoy_1_1Memory_a686c672142ac4cc0360d74b74a7eea83_icgraph.png" border="0" usemap="#adc/d59/classMimicBoy_1_1Memory_a686c672142ac4cc0360d74b74a7eea83_icgraph" alt=""/></div>
+<map name="adc/d59/classMimicBoy_1_1Memory_a686c672142ac4cc0360d74b74a7eea83_icgraph" id="adc/d59/classMimicBoy_1_1Memory_a686c672142ac4cc0360d74b74a7eea83_icgraph">
+<area shape="rect" title=" " alt="" coords="108,5,291,31"/>
+<area shape="rect" href="../../d9/d0f/main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ae141ad9bffcfab4d3915ba4c42020553" name="ae141ad9bffcfab4d3915ba4c42020553"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae141ad9bffcfab4d3915ba4c42020553">&#9670;&#160;</a></span>read()</h2>
 
@@ -205,7 +255,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The byte value stored at the specified memory address. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00046">46</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00047">47</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -265,7 +315,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00059">59</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00060">60</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
 
 </div>
 </div>
@@ -294,7 +344,7 @@ Here is the caller graph for this function:</div>
 <p>@variable memory </p>
 <p>This variable serves as a storage container for the memory system, initialized to zero, with a size defined by the constant MemorySize. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00034">34</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
 
 </div>
 </div>
@@ -321,7 +371,7 @@ Here is the caller graph for this function:</div>
 <p>Represents the size of the memory in bytes. </p>
 <p>This constant defines the fixed size of the memory module, calculated as 0x10000 bytes (65,536), which can be used for allocation or memory-related operations. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00025">25</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/Memory_8h_source.html#l00026">26</a> of file <a class="el" href="../../de/d5c/Memory_8h_source.html">Memory.h</a>.</p>
 
 </div>
 </div>

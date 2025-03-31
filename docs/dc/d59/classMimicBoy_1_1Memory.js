@@ -1,6 +1,7 @@
 var classMimicBoy_1_1Memory =
 [
     [ "Memory", "dc/d59/classMimicBoy_1_1Memory.html#a8a5ed31b6b8ad8cd6c7afca3df070528", null ],
+    [ "load", "dc/d59/classMimicBoy_1_1Memory.html#a686c672142ac4cc0360d74b74a7eea83", null ],
     [ "read", "dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553", null ],
     [ "write", "dc/d59/classMimicBoy_1_1Memory.html#a259252a1122b4ab09adf6405f6507d30", null ],
     [ "memory", "dc/d59/classMimicBoy_1_1Memory.html#ac75b1b502147f9e54dede62fd12bc194", null ],
