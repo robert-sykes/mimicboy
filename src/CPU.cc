@@ -8,16 +8,16 @@ namespace MimicBoy {
     }
 
     void CPU::execute() {
-        uint8_t opcode = this->memory.read(this->PC);
+        uint8_t opcode = this->memory.read(this->PC.getValue());
 
-        if (this->opcodesMap.find(opcode) != this->opcodesMap.end()) {
-             this->opcodesMap[opcode]();
+        if (this->opcodesMap.contains(opcode)) {
+            this->opcodesMap[opcode]();
         } else {
              throw std::runtime_error("Invalid opcode");
         }
     }
 
     void CPU::nop() {
-        this->PC++;
+        ++this->PC;
     }
 }

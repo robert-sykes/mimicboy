@@ -4,17 +4,17 @@
 #include <cstdint>
 #include <functional>
 #include <unordered_map>
-#include "Registers.h"
+#include "Register.h"
 #include "CPUFlag.h"
 #include "Memory.h"
 
 namespace MimicBoy {
     class CPU {
     private:
-        uint16_t PC = 0x0000;
+        Register<uint8_t> PC{0x0000};
         uint16_t SP = 0xFFFE;
+        Register<uint8_t> A{0x00}, B{0x00}, C{0x00}, D{0x00}, E{0x00}, H{0x00}, L{0x00}, F{0x00};
 
-        Registers registers;
         CPUFlag flag;
         Memory& memory;
 
@@ -22,9 +22,8 @@ namespace MimicBoy {
     public:
         explicit CPU(Memory& memory);
 
-        Registers& getRegisters() { return registers; }
         CPUFlag& getFlag() { return flag; }
-        
+
         void execute();
     private:
         void nop();
