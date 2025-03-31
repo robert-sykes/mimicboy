@@ -1,5 +1,7 @@
 <map id="MimicBoy::CPU::execute" name="MimicBoy::CPU::execute">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,185,31"/>
-<area shape="rect" id="Node000002" href="$dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553" title="Reads a byte from the memory at the specified address." alt="" coords="233,5,417,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,15,220,15,220,21,186,21"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,185,67"/>
+<area shape="rect" id="Node000002" href="$d3/d9b/classMimicBoy_1_1Register.html#aa0ef806c6b7bdc441a435ec416be3645" title=" " alt="" coords="251,5,399,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,41,237,34,238,39,186,46"/>
+<area shape="rect" id="Node000003" href="$dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553" title="Reads a byte from the memory at the specified address." alt="" coords="233,70,417,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,63,220,67,220,72,186,68"/>
 </map>

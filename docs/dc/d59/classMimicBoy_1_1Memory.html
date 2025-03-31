@@ -120,16 +120,16 @@ Collaboration diagram for MimicBoy::Memory:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a5ed31b6b8ad8cd6c7afca3df070528" id="r_a8a5ed31b6b8ad8cd6c7afca3df070528"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#a8a5ed31b6b8ad8cd6c7afca3df070528">Memory</a> ()=default</td></tr>
 <tr class="separator:a8a5ed31b6b8ad8cd6c7afca3df070528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae141ad9bffcfab4d3915ba4c42020553" id="r_ae141ad9bffcfab4d3915ba4c42020553"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553">read</a> (const uint16_t address) const</td></tr>
+<tr class="memitem:ae141ad9bffcfab4d3915ba4c42020553" id="r_ae141ad9bffcfab4d3915ba4c42020553"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dff/classuint8__t.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553">read</a> (const uint16_t address) const</td></tr>
 <tr class="memdesc:ae141ad9bffcfab4d3915ba4c42020553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a byte from the memory at the specified address.  <br /></td></tr>
 <tr class="separator:ae141ad9bffcfab4d3915ba4c42020553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a259252a1122b4ab09adf6405f6507d30" id="r_a259252a1122b4ab09adf6405f6507d30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#a259252a1122b4ab09adf6405f6507d30">write</a> (const uint16_t address, const uint8_t value)</td></tr>
+<tr class="memitem:a259252a1122b4ab09adf6405f6507d30" id="r_a259252a1122b4ab09adf6405f6507d30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#a259252a1122b4ab09adf6405f6507d30">write</a> (const uint16_t address, const <a class="el" href="../../d4/dff/classuint8__t.html">uint8_t</a> value)</td></tr>
 <tr class="memdesc:a259252a1122b4ab09adf6405f6507d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a value to a specific memory address.  <br /></td></tr>
 <tr class="separator:a259252a1122b4ab09adf6405f6507d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac75b1b502147f9e54dede62fd12bc194" id="r_ac75b1b502147f9e54dede62fd12bc194"><td class="memItemLeft" align="right" valign="top">std::array&lt; uint8_t, <a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae51876d4cd8ab777f7b54f60da4cc7e8">MemorySize</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ac75b1b502147f9e54dede62fd12bc194">memory</a> = {}</td></tr>
+<tr class="memitem:ac75b1b502147f9e54dede62fd12bc194" id="r_ac75b1b502147f9e54dede62fd12bc194"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d4/dff/classuint8__t.html">uint8_t</a>, <a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae51876d4cd8ab777f7b54f60da4cc7e8">MemorySize</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ac75b1b502147f9e54dede62fd12bc194">memory</a> = {}</td></tr>
 <tr class="memdesc:ac75b1b502147f9e54dede62fd12bc194"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array representing the memory storage of fixed size.  <br /></td></tr>
 <tr class="separator:ac75b1b502147f9e54dede62fd12bc194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -181,7 +181,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t MimicBoy::Memory::read </td>
+          <td class="memname"><a class="el" href="../../d4/dff/classuint8__t.html">uint8_t</a> MimicBoy::Memory::read </td>
           <td>(</td>
           <td class="paramtype">const uint16_t&#160;</td>
           <td class="paramname"><em>address</em></td><td>)</td>
@@ -239,7 +239,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dff/classuint8__t.html">uint8_t</a>&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -280,7 +280,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;uint8_t, <a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae51876d4cd8ab777f7b54f60da4cc7e8">MemorySize</a>&gt; MimicBoy::Memory::memory = {}</td>
+          <td class="memname">std::array&lt;<a class="el" href="../../d4/dff/classuint8__t.html">uint8_t</a>, <a class="el" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae51876d4cd8ab777f7b54f60da4cc7e8">MemorySize</a>&gt; MimicBoy::Memory::memory = {}</td>
         </tr>
       </table>
   </td>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_0',['C',['../dd/df4/structMimicBoy_1_1Registers.html#a71c45c2a581792e7caa871cbcd45d074',1,'MimicBoy::Registers']]],
+  ['c_0',['C',['../da/d2b/classMimicBoy_1_1CPU.html#ae5448d7019e46b20171918a422bdfc38',1,'MimicBoy::CPU']]],
   ['carry_1',['Carry',['../df/dc8/namespaceMimicBoy.html#a46a92465cbd994e072183791f4c8f8c9a8b18d3d3cab61b0fc56db2a973160bee',1,'MimicBoy']]],
   ['cpu_2',['cpu',['../da/d2b/classMimicBoy_1_1CPU.html',1,'MimicBoy::CPU'],['../da/d2b/classMimicBoy_1_1CPU.html#a7d22ceddeeb17d0895d0a5fd9f0408e9',1,'MimicBoy::CPU::CPU()']]],
   ['cpu_2ecc_3',['CPU.cc',['../dc/da4/CPU_8cc.html',1,'']]],

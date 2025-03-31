@@ -1,5 +1,5 @@
-<map id="src/Registers.h" name="src/Registers.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="50,5,169,31"/>
+<map id="src/Register.h" name="src/Register.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="54,5,165,31"/>
 <area shape="rect" id="Node000002" href="$dd/d20/CPU_8h.html" title=" " alt="" coords="67,79,151,104"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,44,112,79,107,79,107,44"/>
 <area shape="rect" id="Node000003" href="$dc/da4/CPU_8cc.html" title=" " alt="" coords="5,152,96,177"/>
