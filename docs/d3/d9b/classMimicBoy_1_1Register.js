@@ -1,18 +1,14 @@
 var classMimicBoy_1_1Register =
 [
-    [ "Register", "d3/d9b/classMimicBoy_1_1Register.html#aeca52264c5363bc953eadc35c6e56aad", null ],
-    [ "Register", "d3/d9b/classMimicBoy_1_1Register.html#aa43af25d5c721b60aacd0c4b69445930", null ],
-    [ "getValue", "d3/d9b/classMimicBoy_1_1Register.html#aa0ef806c6b7bdc441a435ec416be3645", null ],
-    [ "operator!=", "d3/d9b/classMimicBoy_1_1Register.html#ad8ae5e6fff7e752b4f560c57c58dbb84", null ],
-    [ "operator&=", "d3/d9b/classMimicBoy_1_1Register.html#ad36402c98d34cebb81e381b8cd11dbf5", null ],
-    [ "operator++", "d3/d9b/classMimicBoy_1_1Register.html#a52c4b651f85ce25e600c9ff3cf4401d5", null ],
-    [ "operator++", "d3/d9b/classMimicBoy_1_1Register.html#a14e28f7c6e7007eab3fb637b7d5c0c3b", null ],
-    [ "operator--", "d3/d9b/classMimicBoy_1_1Register.html#a0db578a9f822a332d4424f0fd152481d", null ],
-    [ "operator--", "d3/d9b/classMimicBoy_1_1Register.html#a30054d67524324133b72bfc8cf949a89", null ],
-    [ "operator=", "d3/d9b/classMimicBoy_1_1Register.html#a23e3f612eea0129a75e4225839579ef2", null ],
-    [ "operator==", "d3/d9b/classMimicBoy_1_1Register.html#aa1920e55c5b83977bd5491eadef46e70", null ],
-    [ "operator^=", "d3/d9b/classMimicBoy_1_1Register.html#a32e1fb0567ec42332931b0eb0fc6d7ae", null ],
-    [ "operator|=", "d3/d9b/classMimicBoy_1_1Register.html#a5d79763d5caa733d4d3bc0666ac2064b", null ],
-    [ "setValue", "d3/d9b/classMimicBoy_1_1Register.html#afa768d790d0100c64c74846d8b2c91e9", null ],
-    [ "value", "d3/d9b/classMimicBoy_1_1Register.html#abe875b6a72563667df4c80c50b12090a", null ]
+    [ "Register", "d3/d9b/classMimicBoy_1_1Register.html#a2dc515a39c67e52fff8ca89017507785", null ],
+    [ "Register", "d3/d9b/classMimicBoy_1_1Register.html#ab7ea0e1b3f19d3597a620a93966eadb6", null ],
+    [ "get", "d3/d9b/classMimicBoy_1_1Register.html#ad805183f44498a0f09317d15459d88bf", null ],
+    [ "getHigh", "d3/d9b/classMimicBoy_1_1Register.html#ab13c61707d053f997e10f382fb6d90fa", null ],
+    [ "getLow", "d3/d9b/classMimicBoy_1_1Register.html#ae72a6da56c809465e73af1228e4f286b", null ],
+    [ "operator++", "d3/d9b/classMimicBoy_1_1Register.html#a2abec3b697c3841a852960353432227a", null ],
+    [ "operator++", "d3/d9b/classMimicBoy_1_1Register.html#ad1e68123e33c97d554e887c9bd7e2cc7", null ],
+    [ "set", "d3/d9b/classMimicBoy_1_1Register.html#a1a89df41e296a16b7343ca7f1cbe0889", null ],
+    [ "setHigh", "d3/d9b/classMimicBoy_1_1Register.html#a3baa71bfb4febfccbfdb652837414847", null ],
+    [ "setLow", "d3/d9b/classMimicBoy_1_1Register.html#aeaea155f76574d1e49704ca286142936", null ],
+    [ "value", "d3/d9b/classMimicBoy_1_1Register.html#a188ae431e1af722e0f59703e55e918de", null ]
 ];

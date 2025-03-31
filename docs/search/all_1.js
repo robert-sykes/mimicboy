@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['b_0',['B',['../da/d2b/classMimicBoy_1_1CPU.html#a65d021ac751310aa180231ac52fe39d2',1,'MimicBoy::CPU']]]
+  ['bc_0',['BC',['../da/d2b/classMimicBoy_1_1CPU.html#ab8ea30dfc5307f311b188635fa81628d',1,'MimicBoy::CPU']]]
 ];

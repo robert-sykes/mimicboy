@@ -1,7 +1,7 @@
 <map id="MimicBoy::CPU::execute" name="MimicBoy::CPU::execute">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,185,67"/>
-<area shape="rect" id="Node000002" href="$d3/d9b/classMimicBoy_1_1Register.html#aa0ef806c6b7bdc441a435ec416be3645" title=" " alt="" coords="251,5,399,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,41,237,34,238,39,186,46"/>
-<area shape="rect" id="Node000003" href="$dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553" title="Reads a byte from the memory at the specified address." alt="" coords="233,70,417,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,63,220,67,220,72,186,68"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,185,56"/>
+<area shape="rect" id="Node000002" href="$d3/d9b/classMimicBoy_1_1Register.html#ad805183f44498a0f09317d15459d88bf" title=" " alt="" coords="237,5,414,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,31,223,27,223,32,186,36"/>
+<area shape="rect" id="Node000003" href="$dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553" title="Reads a byte from the memory at the specified address." alt="" coords="233,55,417,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,50,220,54,220,59,186,55"/>
 </map>

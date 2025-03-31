@@ -1,9 +1,9 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,60,67"/>
-<area shape="rect" id="Node000002" href="$da/d2b/classMimicBoy_1_1CPU.html#ae9f515f1725d809e3bf5977f94eacec8" title=" " alt="" coords="108,42,288,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,52,95,52,95,57,60,57"/>
-<area shape="rect" id="Node000003" href="$d3/d9b/classMimicBoy_1_1Register.html#aa0ef806c6b7bdc441a435ec416be3645" title=" " alt="" coords="354,5,502,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,41,340,34,341,39,289,46"/>
-<area shape="rect" id="Node000004" href="$dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553" title="Reads a byte from the memory at the specified address." alt="" coords="336,70,520,95"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="289,63,323,67,322,72,288,68"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,60,56"/>
+<area shape="rect" id="Node000002" href="$da/d2b/classMimicBoy_1_1CPU.html#ae9f515f1725d809e3bf5977f94eacec8" title=" " alt="" coords="108,31,288,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,41,95,41,95,46,60,46"/>
+<area shape="rect" id="Node000003" href="$d3/d9b/classMimicBoy_1_1Register.html#ad805183f44498a0f09317d15459d88bf" title=" " alt="" coords="339,5,517,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,31,326,27,326,32,289,36"/>
+<area shape="rect" id="Node000004" href="$dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553" title="Reads a byte from the memory at the specified address." alt="" coords="336,55,520,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="289,50,323,54,322,59,288,55"/>
 </map>
