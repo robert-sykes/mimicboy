@@ -129,15 +129,15 @@ $(document).ready(function(){initNavTree('de/d5c/Memory_8h_source.html','../../'
 </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="foldopen" id="foldopen00064" data-start="{" data-end="}">
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../dc/d59/classMimicBoy_1_1Memory.html#a686c672142ac4cc0360d74b74a7eea83">   64</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d59/classMimicBoy_1_1Memory.html#a686c672142ac4cc0360d74b74a7eea83">load</a>(<span class="keyword">const</span> std::vector&lt;uint8_t&gt;&amp; data, uint16_t startAddress = 0x0000) {</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>             <span class="keywordflow">if</span> (startAddress + data.size() &gt; <a class="code hl_variable" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae51876d4cd8ab777f7b54f60da4cc7e8">MemorySize</a>) {</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                 <span class="keywordflow">throw</span> std::out_of_range(<span class="stringliteral">&quot;Data exceeds available memory.&quot;</span>);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>             }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../dc/d59/classMimicBoy_1_1Memory.html#a686c672142ac4cc0360d74b74a7eea83">   64</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d59/classMimicBoy_1_1Memory.html#a686c672142ac4cc0360d74b74a7eea83">load</a>(<span class="keyword">const</span> std::vector&lt;uint8_t&gt; &amp;data, uint16_t startAddress = 0x0000) {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <span class="keywordflow">if</span> (startAddress + data.size() &gt; <a class="code hl_variable" href="../../dc/d59/classMimicBoy_1_1Memory.html#ae51876d4cd8ab777f7b54f60da4cc7e8">MemorySize</a>) {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                <span class="keywordflow">throw</span> std::out_of_range(<span class="stringliteral">&quot;Data exceeds available memory.&quot;</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            }</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>             <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> i : data) {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                 <a class="code hl_variable" href="../../dc/d59/classMimicBoy_1_1Memory.html#ac75b1b502147f9e54dede62fd12bc194">memory</a>[startAddress] = i;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>             }</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>         }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> i: data) {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                <a class="code hl_variable" href="../../dc/d59/classMimicBoy_1_1Memory.html#ac75b1b502147f9e54dede62fd12bc194">memory</a>[startAddress] = i;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        }</div>
 </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    };</div>
 </div>
