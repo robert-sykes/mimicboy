@@ -9,12 +9,12 @@
 int main() {
     MimicBoy::Memory memory;
     memory.load({
-        {0x0000, 0x40}
+        {0x0000, 0x46},
+        {0x0001, 20}
     });
 
     MimicBoy::CPU cpu(memory);
-    cpu.setB(0x01);
-    cpu.setC(0x02);
+    cpu.setHL(0x0001);
 
     cpu.execute();
 
