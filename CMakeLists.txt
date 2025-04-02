@@ -10,24 +10,35 @@ enable_testing()
 # Find GoogleTest package
 find_package(GTest REQUIRED)
 
-add_executable(mimicboy
-        src/main.cc
+# Add a library for shared code (CPU, Memory, etc.)
+add_library(mimicboy_core
         src/Memory.cc
         src/CPU.cc
         src/CPU_Load.cc
 )
 
+# Include directories for the library target
+target_include_directories(mimicboy_core PUBLIC ${CMAKE_SOURCE_DIR})
+
+# Add the main executable
+add_executable(mimicboy
+        src/main.cc
+)
+
+# Link the main executable to the shared library
+target_link_libraries(mimicboy PRIVATE mimicboy_core)
+
+# Add test executable for unit tests
 add_executable(mimicboy_test
         tests/unit/CPUTest.cc
         tests/unit/MemoryTest.cc
 )
 
-target_include_directories(mimicboy PRIVATE ${CMAKE_SOURCE_DIR})
+# Link test executable to shared library and GTest
+target_link_libraries(mimicboy_test PRIVATE mimicboy_core GTest::GTest GTest::Main pthread)
+
+# Include GTest and project headers in tests
 target_include_directories(mimicboy_test PRIVATE ${GTEST_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR})
 
-# Link against GTest and pthread (required on macOS)
-target_link_libraries(mimicboy_test PRIVATE GTest::GTest GTest::Main pthread)
-
 # Register the test with CTest
-add_test(NAME MemoryTest COMMAND MemoryTest)
-add_test(NAME CPUTest COMMAND CPUTest)
+add_test(NAME mimicboy_test COMMAND mimicboy_test)
