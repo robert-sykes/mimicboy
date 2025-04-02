@@ -63,12 +63,12 @@ namespace MimicBoy {
             memory[address] = value;
         }
 
-        void load(const std::initializer_list<std::pair<uint16_t, uint8_t>>& data) {
-            for (const auto& [address, value] : data) {
+        void load(const std::initializer_list<std::pair<uint16_t, uint8_t> > &data) {
+            for (const auto &[address, value]: data) {
                 if (address >= MemorySize) {
                     throw std::out_of_range("Address exceeds available memory.");
                 }
-                memory[address] = value;  // Example: load value into the specified address
+                memory[address] = value; // Example: load value into the specified address
             }
         }
     };

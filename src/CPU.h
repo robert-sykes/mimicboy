@@ -49,6 +49,7 @@ namespace MimicBoy {
         void nop();
 
         void ldr8r8(Register8 &left, Register8 &right);
+
         void ldr8r16(Register8 &left, Register16 &right);
     };
 }
