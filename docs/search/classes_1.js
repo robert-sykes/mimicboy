@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['memory_0',['Memory',['../dc/d59/classMimicBoy_1_1Memory.html',1,'MimicBoy']]]
+  ['invalidopcodeexception_0',['InvalidOpcodeException',['../d9/dbe/classInvalidOpcodeException.html',1,'']]]
 ];

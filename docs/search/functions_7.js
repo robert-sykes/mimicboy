@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['read_0',['read',['../dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553',1,'MimicBoy::Memory']]],
-  ['register16_1',['register16',['../da/d78/classMimicBoy_1_1Register16.html#a4931b51a9f90395a36a146649299bf03',1,'MimicBoy::Register16::Register16()'],['../da/d78/classMimicBoy_1_1Register16.html#abc61894e39e99f848a5ccdb83136141d',1,'MimicBoy::Register16::Register16(const uint16_t val)']]],
-  ['register8_2',['register8',['../d3/d98/classMimicBoy_1_1Register8.html#aff93e2c067f20f7c9bb214c7120e7508',1,'MimicBoy::Register8::Register8()'],['../d3/d98/classMimicBoy_1_1Register8.html#a58985da8a7abbe72dffbca2dd3cd945d',1,'MimicBoy::Register8::Register8(const uint8_t val)']]]
+  ['operator_2b_2b_0',['operator++',['../da/d78/classMimicBoy_1_1Register16.html#a16bd5d2565fe86f5ddc31fb4a48c3ab1',1,'MimicBoy::Register16::operator++()'],['../da/d78/classMimicBoy_1_1Register16.html#a798ecff78198dffeb599e8f270fd4042',1,'MimicBoy::Register16::operator++(int)'],['../d3/d98/classMimicBoy_1_1Register8.html#aef636579e3caa623f89e2d5e07d053dd',1,'MimicBoy::Register8::operator++()'],['../d3/d98/classMimicBoy_1_1Register8.html#aa979381d5943e1f2de954d2d0ff7523a',1,'MimicBoy::Register8::operator++(int)']]]
 ];

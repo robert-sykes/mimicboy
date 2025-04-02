@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['main_0',['main',['../d9/d0f/main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cc']]],
-  ['memory_1',['Memory',['../dc/d59/classMimicBoy_1_1Memory.html#a8a5ed31b6b8ad8cd6c7afca3df070528',1,'MimicBoy::Memory']]]
+  ['ldr8r16_0',['ldr8r16',['../da/d2b/classMimicBoy_1_1CPU.html#a01d9a301663837f9e8698468a074e704',1,'MimicBoy::CPU']]],
+  ['ldr8r8_1',['ldr8r8',['../da/d2b/classMimicBoy_1_1CPU.html#ae2047564899db7664e951246d8ce4d5b',1,'MimicBoy::CPU']]],
+  ['load_2',['load',['../dc/d59/classMimicBoy_1_1Memory.html#a6e1067e4111cc47fe76ce09374caf708',1,'MimicBoy::Memory']]]
 ];
