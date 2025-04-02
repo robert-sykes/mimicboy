@@ -27,6 +27,22 @@ namespace MimicBoy {
 
         CPUFlag& getFlag() { return flag; }
 
+        [[nodiscard]] uint16_t getPC() const { return PC.get(); }
+        [[nodiscard]] uint16_t getSP() const { return SP.get(); }
+
+        [[nodiscard]] uint8_t getA() const { return A.get(); }
+        [[nodiscard]] uint8_t getB() const { return B.get(); }
+        [[nodiscard]] uint8_t getC() const { return C.get(); }
+        [[nodiscard]] uint8_t getD() const { return D.get(); }
+        [[nodiscard]] uint8_t getE() const { return E.get(); }
+        [[nodiscard]] uint8_t getH() const { return H.get(); }
+        [[nodiscard]] uint8_t getL() const { return L.get(); }
+        [[nodiscard]] uint8_t getF() const { return F.get(); }
+        [[nodiscard]] uint16_t getAF() const { return AF.get(); }
+        [[nodiscard]] uint16_t getBC() const { return BC.get(); }
+        [[nodiscard]] uint16_t getDE() const { return DE.get(); }
+        [[nodiscard]] uint16_t getHL() const { return HL.get(); }
+
         void setAF(const uint16_t val) { AF.set(val); }
         void setBC(const uint16_t val) { BC.set(val); }
         void setDE(const uint16_t val) { DE.set(val); }

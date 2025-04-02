@@ -7,4 +7,6 @@ TEST(CPUTest, ExecuteNOP) {
 
     memory.write(0x0000, 0x00);
     cpu.execute();
+
+    ASSERT_EQ(cpu.getPC(), 0x0001);
 }

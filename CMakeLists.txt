@@ -41,4 +41,5 @@ target_link_libraries(mimicboy_test PRIVATE mimicboy_core GTest::GTest GTest::Ma
 target_include_directories(mimicboy_test PRIVATE ${GTEST_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR})
 
 # Register the test with CTest
-add_test(NAME mimicboy_test COMMAND mimicboy_test)
+add_test(NAME CPUTest COMMAND mimicboy_test --gtest_filter=CPUTest.*)
+add_test(NAME MemoryTest COMMAND mimicboy_test --gtest_filter=MemoryTest.*)
