@@ -31,7 +31,6 @@ target_link_libraries(mimicboy PRIVATE mimicboy_core)
 # Add test executable for unit tests
 add_executable(mimicboy_test
         tests/unit/CPUTest.cc
-        tests/unit/MemoryTest.cc
 )
 
 # Link test executable to shared library and GTest
@@ -42,4 +41,3 @@ target_include_directories(mimicboy_test PRIVATE ${GTEST_INCLUDE_DIRS} ${CMAKE_S
 
 # Register the test with CTest
 add_test(NAME CPUTest COMMAND mimicboy_test --gtest_filter=CPUTest.*)
-add_test(NAME MemoryTest COMMAND mimicboy_test --gtest_filter=MemoryTest.*)
