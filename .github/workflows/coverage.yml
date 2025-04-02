@@ -48,10 +48,8 @@ jobs:
           lcov --remove coverage.info '/usr/*' --output-file coverage.info
           lcov --list coverage.info
 
-      - name: Upload Coverage to Codecov
-        uses: codecov/codecov-action@v3
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
         with:
-          token: '${{ secrets.CODECOV_TOKEN }}'
-          files: build/coverage.info
-          flags: unittests
-          name: codecov-coverage
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: robert-sykes/mimicboy
