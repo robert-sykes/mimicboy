@@ -8,6 +8,7 @@
 #include "Register8.h"
 #include "CPUFlag.h"
 #include "Memory.h"
+#include "exceptions/InvalidOpcodeException.h"
 
 namespace MimicBoy {
     class CPU {

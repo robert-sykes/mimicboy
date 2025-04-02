@@ -1,5 +1,6 @@
 #include "CPU.h"
 
+
 namespace MimicBoy {
     CPU::CPU(Memory& memory) : memory(memory) {
         this->opcodesMap = std::unordered_map<uint16_t, std::function<void()>>{
@@ -22,7 +23,7 @@ namespace MimicBoy {
         if (this->opcodesMap.contains(opcode)) {
             this->opcodesMap[opcode]();
         } else {
-             throw std::runtime_error("Invalid opcode");
+             throw InvalidOpcodeException();
         }
     }
 
