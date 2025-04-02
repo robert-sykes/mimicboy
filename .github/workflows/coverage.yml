@@ -1,0 +1,50 @@
+name: Coverage
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test-and-coverage:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up C++
+        uses: actions/setup-cpp@v2
+        with:
+          compiler: 'gcc'
+
+      - name: Install Coverage Tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lcov
+
+      - name: Build and Run Tests
+        run: |
+          mkdir build
+          cd build
+          cmake -DCMAKE_BUILD_TYPE=Coverage ..
+          cmake --build .
+          ctest
+
+      - name: Capture Code Coverage
+        run: |
+          cd build
+          lcov --capture --directory . --output-file coverage.info
+          lcov --remove coverage.info '/usr/*' --output-file coverage.info
+          lcov --list coverage.info
+
+      - name: Upload Coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: '${{ secrets.GH_TOKEN }}'
+          files: build/coverage.info
+          flags: unittests
+          name: codecov-coverage
