@@ -2,6 +2,8 @@
 
 Create a build directory: [Official Documentation](https://robert-sykes.github.io/mimicboy/)
 
+## 📊 Code Coverage
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
