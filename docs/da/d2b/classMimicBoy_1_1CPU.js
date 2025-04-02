@@ -3,6 +3,7 @@ var classMimicBoy_1_1CPU =
     [ "CPU", "da/d2b/classMimicBoy_1_1CPU.html#a7d22ceddeeb17d0895d0a5fd9f0408e9", null ],
     [ "execute", "da/d2b/classMimicBoy_1_1CPU.html#ae9f515f1725d809e3bf5977f94eacec8", null ],
     [ "getFlag", "da/d2b/classMimicBoy_1_1CPU.html#a36b1c8a8b95e70c7a8bc70d0ab3a4452", null ],
+    [ "ldr8r16", "da/d2b/classMimicBoy_1_1CPU.html#a01d9a301663837f9e8698468a074e704", null ],
     [ "ldr8r8", "da/d2b/classMimicBoy_1_1CPU.html#ae2047564899db7664e951246d8ce4d5b", null ],
     [ "nop", "da/d2b/classMimicBoy_1_1CPU.html#a7248b6c675fbd2ce1d6b446ef0e1b8af", null ],
     [ "setA", "da/d2b/classMimicBoy_1_1CPU.html#a76060c29a75709df02c160070498f7da", null ],

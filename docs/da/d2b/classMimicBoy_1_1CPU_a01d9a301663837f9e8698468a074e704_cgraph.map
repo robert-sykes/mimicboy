@@ -1,0 +1,9 @@
+<map id="MimicBoy::CPU::ldr8r16" name="MimicBoy::CPU::ldr8r16">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,180,80"/>
+<area shape="rect" id="Node000002" href="$da/d78/classMimicBoy_1_1Register16.html#ad874b5de8a7791db8a98ea1d880c89d5" title=" " alt="" coords="228,5,421,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,52,250,31,251,36,154,57"/>
+<area shape="rect" id="Node000003" href="$dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553" title="Reads a byte from the memory at the specified address." alt="" coords="233,55,417,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,65,219,65,219,70,180,70"/>
+<area shape="rect" id="Node000004" href="$d3/d98/classMimicBoy_1_1Register8.html#a2458b5d50b0d0cad1b7bb2031d4d23f8" title=" " alt="" coords="233,104,417,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,77,251,98,250,104,152,83"/>
+</map>
