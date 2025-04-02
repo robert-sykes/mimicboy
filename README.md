@@ -2,7 +2,7 @@
 
 Create a build directory: [Official Documentation](https://robert-sykes.github.io/mimicboy/)
 
-## 📊 Code Coverage
+[![codecov](https://codecov.io/gh/robert-sykes/mimicboy/branch/master/graph/badge.svg?token=NSR91BR9ZL)](https://codecov.io/gh/robert-sykes/mimicboy)
 
 ## 🛠️ Getting Started
 
