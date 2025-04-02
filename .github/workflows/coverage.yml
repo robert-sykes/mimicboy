@@ -17,9 +17,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up C++
-        uses: actions/setup-cpp@v3
+        uses: aminya/setup-cpp@v1
         with:
           compiler: 'gcc'
+          cmake: true
 
       - name: Install Coverage Tool
         run: |
