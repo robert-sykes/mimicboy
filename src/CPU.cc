@@ -23,7 +23,7 @@ namespace MimicBoy {
         if (this->opcodesMap.contains(opcode)) {
             this->opcodesMap[opcode]();
         } else {
-             throw InvalidOpcodeException();
+            throw InvalidOpcodeException();
         }
     }
 
