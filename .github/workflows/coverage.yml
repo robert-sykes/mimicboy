@@ -19,7 +19,7 @@ jobs:
       - name: Set up C++
         uses: aminya/setup-cpp@v1
         with:
-          compiler: 'gcc'
+          compiler: 'gcc-10'
           cmake: true
 
       - name: Install Coverage Tool and GTest
