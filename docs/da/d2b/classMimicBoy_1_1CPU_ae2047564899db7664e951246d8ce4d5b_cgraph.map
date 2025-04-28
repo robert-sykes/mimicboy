@@ -1,7 +1,0 @@
-<map id="MimicBoy::CPU::ldr8r8" name="MimicBoy::CPU::ldr8r8">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,172,56"/>
-<area shape="rect" id="Node000002" href="$d3/d98/classMimicBoy_1_1Register8.html#a45257248be4e651cee24138d1bb70a06" title=" " alt="" coords="220,5,405,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,31,206,27,207,33,173,37"/>
-<area shape="rect" id="Node000003" href="$d3/d98/classMimicBoy_1_1Register8.html#a2458b5d50b0d0cad1b7bb2031d4d23f8" title=" " alt="" coords="221,55,405,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,50,207,53,207,59,172,55"/>
-</map>

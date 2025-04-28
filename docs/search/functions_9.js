@@ -1,20 +1,4 @@
 var searchData=
 [
-  ['set_0',['set',['../d3/d98/classMimicBoy_1_1Register8.html#a2458b5d50b0d0cad1b7bb2031d4d23f8',1,'MimicBoy::Register8::set()'],['../da/d78/classMimicBoy_1_1Register16.html#a3e8dba7893cfe8782eac294bef2ac654',1,'MimicBoy::Register16::set()']]],
-  ['seta_1',['setA',['../da/d2b/classMimicBoy_1_1CPU.html#a76060c29a75709df02c160070498f7da',1,'MimicBoy::CPU']]],
-  ['setaf_2',['setAF',['../da/d2b/classMimicBoy_1_1CPU.html#a6f42b9f9f186c742921ebe86727d8883',1,'MimicBoy::CPU']]],
-  ['setb_3',['setB',['../da/d2b/classMimicBoy_1_1CPU.html#a72d9108d70ef23716e7ab63738ee3ef4',1,'MimicBoy::CPU']]],
-  ['setbc_4',['setBC',['../da/d2b/classMimicBoy_1_1CPU.html#a0c1916cd4e88db6871132ddf45b61ea6',1,'MimicBoy::CPU']]],
-  ['setc_5',['setC',['../da/d2b/classMimicBoy_1_1CPU.html#ab384af172506dcd289a13d34fe124b75',1,'MimicBoy::CPU']]],
-  ['setd_6',['setD',['../da/d2b/classMimicBoy_1_1CPU.html#a779812e4a29db306a10847b898f93da3',1,'MimicBoy::CPU']]],
-  ['setde_7',['setDE',['../da/d2b/classMimicBoy_1_1CPU.html#a800887722aa02f691eb25febd4ddae9e',1,'MimicBoy::CPU']]],
-  ['sete_8',['setE',['../da/d2b/classMimicBoy_1_1CPU.html#a0589f911c4f0c2c0b28438ba5349c95f',1,'MimicBoy::CPU']]],
-  ['setf_9',['setF',['../da/d2b/classMimicBoy_1_1CPU.html#a4a19792e2961d65bfe36c7689256b816',1,'MimicBoy::CPU']]],
-  ['seth_10',['setH',['../da/d2b/classMimicBoy_1_1CPU.html#a6a59733c5c9c61654cbb7c6a6d388b26',1,'MimicBoy::CPU']]],
-  ['sethigh_11',['setHigh',['../da/d78/classMimicBoy_1_1Register16.html#a332cb6871c6de4da9e8694d2bd4eca15',1,'MimicBoy::Register16']]],
-  ['sethl_12',['setHL',['../da/d2b/classMimicBoy_1_1CPU.html#a6d3e50a7864e118a14043ca4ed21fa77',1,'MimicBoy::CPU']]],
-  ['setl_13',['setL',['../da/d2b/classMimicBoy_1_1CPU.html#a7a7f3822f4dbd6510d70195e428b1822',1,'MimicBoy::CPU']]],
-  ['setlow_14',['setLow',['../da/d78/classMimicBoy_1_1Register16.html#a01e994e33a4d65839de5b6326ad7a219',1,'MimicBoy::Register16']]],
-  ['setpc_15',['setPC',['../da/d2b/classMimicBoy_1_1CPU.html#a8d3ef568faddbf5b7e451fc6f43120d3',1,'MimicBoy::CPU']]],
-  ['setsp_16',['setSP',['../da/d2b/classMimicBoy_1_1CPU.html#aa3840d0079f79ed6eb273dc0894c5873',1,'MimicBoy::CPU']]]
+  ['write_0',['write',['../dc/d59/classMimicBoy_1_1Memory.html#a259252a1122b4ab09adf6405f6507d30',1,'MimicBoy::Memory']]]
 ];

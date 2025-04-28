@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write_0',['write',['../dc/d59/classMimicBoy_1_1Memory.html#a259252a1122b4ab09adf6405f6507d30',1,'MimicBoy::Memory']]]
+  ['zero_0',['Zero',['../df/dc8/namespaceMimicBoy.html#a46a92465cbd994e072183791f4c8f8c9ad7ed4ee1df437474d005188535f74875',1,'MimicBoy']]]
 ];
