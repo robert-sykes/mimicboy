@@ -6,8 +6,6 @@
 #include <stdexcept>
 #include <vector>
 
-#include "Register8.h"
-
 namespace MimicBoy {
     /**
      * @class Memory

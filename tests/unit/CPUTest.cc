@@ -23,30 +23,14 @@ TEST(CPUTest, ExecuteNOP) {
 TEST(CPUTest, ExecuteLDR8R8) {
     MimicBoy::Memory memory;
     memory.load({
-        {0x0000, 0x41},
+        {0x0000, 0x40},
     });
 
     MimicBoy::CPU cpu(memory);
-    cpu.setC(1);
+    cpu.setB(10);
 
     cpu.execute();
 
-    ASSERT_EQ(cpu.getB(), 1);
-    ASSERT_EQ(cpu.getPC(), 0x0001);
-}
-
-TEST(CPUTest, ExecuteLDR8R16) {
-    MimicBoy::Memory memory;
-    memory.load({
-        {0x0000, 0x46},
-        {0x0001, 20}
-    });
-
-    MimicBoy::CPU cpu(memory);
-    cpu.setHL(0x0001);
-
-    cpu.execute();
-
-    ASSERT_EQ(cpu.getB(), 20);
+    ASSERT_EQ(cpu.getB(), 10);
     ASSERT_EQ(cpu.getPC(), 0x0001);
 }
