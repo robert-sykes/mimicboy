@@ -12,7 +12,6 @@ namespace MimicBoy {
             {0x43, [this] { ldr8r8(this->getB(), this->getE()); }},
             {0x44, [this] { ldr8r8(this->getB(), this->getH()); }},
             {0x45, [this] { ldr8r8(this->getB(), this->getL()); }},
-            {0x46, [this] { ldr8r16(this->getB(), this->HL); }},
         };
     }
 

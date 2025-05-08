@@ -31,6 +31,7 @@ target_link_libraries(mimicboy PRIVATE mimicboy_core)
 # Add test executable for unit tests
 add_executable(mimicboy_test
         tests/unit/CPUTest.cc
+        tests/unit/CPULoadTest_LDR8R8.cc
 )
 
 # Link test executable to shared library and GTest

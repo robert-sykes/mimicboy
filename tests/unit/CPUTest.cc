@@ -19,18 +19,3 @@ TEST(CPUTest, ExecuteNOP) {
 
     ASSERT_EQ(cpu.getPC(), 0x0001);
 }
-
-TEST(CPUTest, ExecuteLDR8R8) {
-    MimicBoy::Memory memory;
-    memory.load({
-        {0x0000, 0x40},
-    });
-
-    MimicBoy::CPU cpu(memory);
-    cpu.setB(10);
-
-    cpu.execute();
-
-    ASSERT_EQ(cpu.getB(), 10);
-    ASSERT_EQ(cpu.getPC(), 0x0001);
-}
