@@ -1,15 +1,21 @@
 <map id="MimicBoy::CPU" name="MimicBoy::CPU">
-<area shape="rect" id="Node000001" title=" " alt="" coords="131,269,253,295"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,80,126"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,137,87,189,107,218,131,243,167,267,164,271,128,247,103,221,82,192,52,140"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="104,101,181,126"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,138,191,268,186,270,147,140"/>
-<area shape="rect" id="Node000004" href="$dc/d59/classMimicBoy_1_1Memory.html" title="Represents a memory management system with fixed size." alt="" coords="206,101,354,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,140,214,247,201,270,196,268,210,244,266,137"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="87,5,255,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="196,38,268,99,265,103,193,42"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="279,5,499,31"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="367,42,295,103,292,99,364,38"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="379,93,581,133"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="455,145,399,198,363,225,325,248,290,262,254,273,252,268,288,257,323,243,360,220,395,194,452,142"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="852,145,973,170"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="579,10,653,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="668,21,746,32,789,44,829,62,854,80,876,102,906,142,901,146,872,105,851,84,827,66,787,49,745,37,667,26"/>
+<area shape="rect" id="Node000003" href="$da/d78/classMimicBoy_1_1Register16.html" title=" " alt="" coords="534,95,698,121"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="713,120,828,139,852,143,851,148,828,144,712,125"/>
+<area shape="rect" id="Node000004" href="$d3/d98/classMimicBoy_1_1Register8.html" title=" " alt="" coords="193,95,349,121"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="363,105,533,105,533,111,363,111"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,95,72,121"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="86,105,193,105,193,111,86,111"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="577,145,655,170"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="669,155,852,155,852,160,669,160"/>
+<area shape="rect" id="Node000007" href="$dc/d59/classMimicBoy_1_1Memory.html" title="Represents a memory management system with fixed size." alt="" coords="542,194,690,219"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="704,194,828,175,861,167,862,173,828,180,704,199"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="187,170,355,195"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="369,187,542,199,542,204,369,192"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="161,219,381,245"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="395,223,490,216,542,211,542,217,491,221,395,228"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="515,244,717,284"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="730,241,779,227,827,210,863,189,894,168,897,173,866,194,829,214,781,232,732,246"/>
 </map>

@@ -1,0 +1,17 @@
+<map id="MimicBoy::Register16::getLow" name="MimicBoy::Register16::getLow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="416,73,580,113"/>
+<area shape="rect" id="Node000002" href="$da/d2b/classMimicBoy_1_1CPU.html#afbee865e6b1ee5492e7d63dde2e94668" title=" " alt="" coords="209,153,368,179"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="435,120,369,145,334,156,332,151,367,139,433,115"/>
+<area shape="rect" id="Node000005" href="$da/d2b/classMimicBoy_1_1CPU.html#a972f167dc83ff81b67332820e5168a4c" title=" " alt="" coords="209,5,368,31"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="434,70,367,45,333,33,334,28,369,39,436,65"/>
+<area shape="rect" id="Node000006" href="$da/d2b/classMimicBoy_1_1CPU.html#a9eb32a054b64d7de13a792149e3f2fe2" title=" " alt="" coords="209,104,368,129"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="403,106,368,110,368,105,402,101"/>
+<area shape="rect" id="Node000007" href="$da/d2b/classMimicBoy_1_1CPU.html#ab7acd090a8d03ee3e4d3ff995b16991e" title=" " alt="" coords="210,55,367,80"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="402,84,367,79,368,74,402,78"/>
+<area shape="rect" id="Node000003" href="$da/d2b/classMimicBoy_1_1CPU.html#a7d22ceddeeb17d0895d0a5fd9f0408e9" title=" " alt="" coords="5,55,161,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,151,208,144,149,113,101,82,104,78,151,108,210,140,228,146"/>
+<area shape="rect" id="Node000004" href="$d9/d0f/main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="56,153,111,179"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="195,169,111,169,111,163,195,163"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="223,36,138,57,136,52,221,31"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="196,70,162,70,162,65,196,65"/>
+</map>

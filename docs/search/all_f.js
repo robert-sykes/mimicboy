@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['seta_0',['setA',['../da/d2b/classMimicBoy_1_1CPU.html#a487bf7bd2777b50375847616b311c5b2',1,'MimicBoy::CPU']]],
-  ['setaf_1',['setAF',['../da/d2b/classMimicBoy_1_1CPU.html#ab7a61cfff95a846e9cbf311d14a82a8c',1,'MimicBoy::CPU']]],
-  ['setb_2',['setB',['../da/d2b/classMimicBoy_1_1CPU.html#a0cdb52ac83c5465201c2c83023b4f895',1,'MimicBoy::CPU']]],
-  ['setbc_3',['setBC',['../da/d2b/classMimicBoy_1_1CPU.html#a163356e0cb6dd30083a4a0ec600da5bf',1,'MimicBoy::CPU']]],
-  ['setc_4',['setC',['../da/d2b/classMimicBoy_1_1CPU.html#a5056ab575de5e77212453249f6bd426f',1,'MimicBoy::CPU']]],
-  ['setd_5',['setD',['../da/d2b/classMimicBoy_1_1CPU.html#aa97d2c1b896375aa71728d9a79559a89',1,'MimicBoy::CPU']]],
-  ['setde_6',['setDE',['../da/d2b/classMimicBoy_1_1CPU.html#a8f7096b266954f9724477390aef5898f',1,'MimicBoy::CPU']]],
-  ['sete_7',['setE',['../da/d2b/classMimicBoy_1_1CPU.html#ab1e6e07a8972493473dedc222319240d',1,'MimicBoy::CPU']]],
-  ['setf_8',['setF',['../da/d2b/classMimicBoy_1_1CPU.html#a44d1aa92411880679572298ad4a26d81',1,'MimicBoy::CPU']]],
-  ['seth_9',['setH',['../da/d2b/classMimicBoy_1_1CPU.html#adc74c53bd1b9faca1073b4ab06dce982',1,'MimicBoy::CPU']]],
-  ['sethl_10',['setHL',['../da/d2b/classMimicBoy_1_1CPU.html#a454d92b54c3a2f0fae8e40947bfebde1',1,'MimicBoy::CPU']]],
-  ['setl_11',['setL',['../da/d2b/classMimicBoy_1_1CPU.html#ac4d55e8451c424312c5ae6c1f561f3b6',1,'MimicBoy::CPU']]],
-  ['setpc_12',['setPC',['../da/d2b/classMimicBoy_1_1CPU.html#ac9ca8370cb0b02da7b967c3b2e2ca3eb',1,'MimicBoy::CPU']]],
-  ['setsp_13',['setSP',['../da/d2b/classMimicBoy_1_1CPU.html#af159944b374299bfb9546d61288c5abf',1,'MimicBoy::CPU']]],
-  ['sp_14',['SP',['../da/d2b/classMimicBoy_1_1CPU.html#a81d3581ec37942da77dbf4fd59aadd42',1,'MimicBoy::CPU']]],
-  ['subtract_15',['Subtract',['../df/dc8/namespaceMimicBoy.html#a46a92465cbd994e072183791f4c8f8c9a1d9baf077ee87921f57a8fe42d510b65',1,'MimicBoy']]]
+  ['set_0',['set',['../da/d78/classMimicBoy_1_1Register16.html#aff2b566af31d1a433ecf33cc6f1a5b2e',1,'MimicBoy::Register16::set()'],['../d3/d98/classMimicBoy_1_1Register8.html#a51022c0d7a3a99f36e2c2bc2ba4126c4',1,'MimicBoy::Register8::set()']]],
+  ['sp_1',['SP',['../da/d2b/classMimicBoy_1_1CPU.html#a81d3581ec37942da77dbf4fd59aadd42',1,'MimicBoy::CPU']]],
+  ['subtract_2',['Subtract',['../df/dc8/namespaceMimicBoy.html#a46a92465cbd994e072183791f4c8f8c9a1d9baf077ee87921f57a8fe42d510b65',1,'MimicBoy']]]
 ];

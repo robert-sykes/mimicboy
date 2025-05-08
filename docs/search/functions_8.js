@@ -1,17 +1,5 @@
 var searchData=
 [
-  ['seta_0',['setA',['../da/d2b/classMimicBoy_1_1CPU.html#a487bf7bd2777b50375847616b311c5b2',1,'MimicBoy::CPU']]],
-  ['setaf_1',['setAF',['../da/d2b/classMimicBoy_1_1CPU.html#ab7a61cfff95a846e9cbf311d14a82a8c',1,'MimicBoy::CPU']]],
-  ['setb_2',['setB',['../da/d2b/classMimicBoy_1_1CPU.html#a0cdb52ac83c5465201c2c83023b4f895',1,'MimicBoy::CPU']]],
-  ['setbc_3',['setBC',['../da/d2b/classMimicBoy_1_1CPU.html#a163356e0cb6dd30083a4a0ec600da5bf',1,'MimicBoy::CPU']]],
-  ['setc_4',['setC',['../da/d2b/classMimicBoy_1_1CPU.html#a5056ab575de5e77212453249f6bd426f',1,'MimicBoy::CPU']]],
-  ['setd_5',['setD',['../da/d2b/classMimicBoy_1_1CPU.html#aa97d2c1b896375aa71728d9a79559a89',1,'MimicBoy::CPU']]],
-  ['setde_6',['setDE',['../da/d2b/classMimicBoy_1_1CPU.html#a8f7096b266954f9724477390aef5898f',1,'MimicBoy::CPU']]],
-  ['sete_7',['setE',['../da/d2b/classMimicBoy_1_1CPU.html#ab1e6e07a8972493473dedc222319240d',1,'MimicBoy::CPU']]],
-  ['setf_8',['setF',['../da/d2b/classMimicBoy_1_1CPU.html#a44d1aa92411880679572298ad4a26d81',1,'MimicBoy::CPU']]],
-  ['seth_9',['setH',['../da/d2b/classMimicBoy_1_1CPU.html#adc74c53bd1b9faca1073b4ab06dce982',1,'MimicBoy::CPU']]],
-  ['sethl_10',['setHL',['../da/d2b/classMimicBoy_1_1CPU.html#a454d92b54c3a2f0fae8e40947bfebde1',1,'MimicBoy::CPU']]],
-  ['setl_11',['setL',['../da/d2b/classMimicBoy_1_1CPU.html#ac4d55e8451c424312c5ae6c1f561f3b6',1,'MimicBoy::CPU']]],
-  ['setpc_12',['setPC',['../da/d2b/classMimicBoy_1_1CPU.html#ac9ca8370cb0b02da7b967c3b2e2ca3eb',1,'MimicBoy::CPU']]],
-  ['setsp_13',['setSP',['../da/d2b/classMimicBoy_1_1CPU.html#af159944b374299bfb9546d61288c5abf',1,'MimicBoy::CPU']]]
+  ['read_0',['read',['../dc/d59/classMimicBoy_1_1Memory.html#ae141ad9bffcfab4d3915ba4c42020553',1,'MimicBoy::Memory']]],
+  ['register16_1',['register16',['../da/d78/classMimicBoy_1_1Register16.html#ad14eca9e21c19815e985863efc6baa8f',1,'MimicBoy::Register16::Register16()=default'],['../da/d78/classMimicBoy_1_1Register16.html#a2d8e1acf1a5c8bae47b9a5a2519f2f9e',1,'MimicBoy::Register16::Register16(uint16_t value)']]]
 ];

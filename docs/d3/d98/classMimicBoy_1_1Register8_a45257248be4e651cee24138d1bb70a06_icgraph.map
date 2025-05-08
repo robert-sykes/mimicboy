@@ -1,0 +1,9 @@
+<map id="MimicBoy::Register8::get" name="MimicBoy::Register8::get">
+<area shape="rect" id="Node000001" title=" " alt="" coords="451,31,636,56"/>
+<area shape="rect" id="Node000002" href="$da/d78/classMimicBoy_1_1Register16.html#ad874b5de8a7791db8a98ea1d880c89d5" title=" " alt="" coords="209,5,403,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="437,35,402,31,403,26,438,29"/>
+<area shape="rect" id="Node000003" href="$da/d2b/classMimicBoy_1_1CPU.html#a895ad6cb7e050bc9900546561503fdc3" title=" " alt="" coords="223,55,389,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="438,57,390,62,389,56,437,51"/>
+<area shape="rect" id="Node000004" href="$da/d2b/classMimicBoy_1_1CPU.html#a7d22ceddeeb17d0895d0a5fd9f0408e9" title=" " alt="" coords="5,55,161,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="208,70,161,70,161,65,208,65"/>
+</map>

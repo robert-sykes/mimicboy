@@ -1,11 +1,9 @@
 <map id="MimicBoy::Memory::read" name="MimicBoy::Memory::read">
-<area shape="rect" id="Node000001" title="Reads a byte from the memory at the specified address." alt="" coords="437,31,621,56"/>
-<area shape="rect" id="Node000002" href="$da/d2b/classMimicBoy_1_1CPU.html#ae9f515f1725d809e3bf5977f94eacec8" title=" " alt="" coords="209,5,389,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,34,389,31,390,25,424,29"/>
-<area shape="rect" id="Node000004" href="$da/d2b/classMimicBoy_1_1CPU.html#af53c259a7bd92a3be77a0212ba14b85a" title=" " alt="" coords="212,55,387,80"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="424,57,387,61,386,56,423,52"/>
-<area shape="rect" id="Node000003" href="$d9/d0f/main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="56,5,111,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,21,111,21,111,15,195,15"/>
-<area shape="rect" id="Node000005" href="$da/d2b/classMimicBoy_1_1CPU.html#a7d22ceddeeb17d0895d0a5fd9f0408e9" title=" " alt="" coords="5,55,161,80"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="198,70,162,70,162,65,198,65"/>
+<area shape="rect" id="Node000001" title="Reads a byte from the memory at the specified address." alt="" coords="336,31,520,56"/>
+<area shape="rect" id="Node000002" href="$da/d2b/classMimicBoy_1_1CPU.html#ae9f515f1725d809e3bf5977f94eacec8" title=" " alt="" coords="108,5,288,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="322,34,288,31,289,25,322,29"/>
+<area shape="rect" id="Node000004" href="$da/d2b/classMimicBoy_1_1CPU.html#af53c259a7bd92a3be77a0212ba14b85a" title=" " alt="" coords="111,55,285,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="322,57,286,61,285,56,322,52"/>
+<area shape="rect" id="Node000003" href="$d9/d0f/main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
 </map>
