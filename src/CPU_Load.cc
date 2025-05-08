@@ -1,7 +1,7 @@
 #include "CPU.h"
 
 namespace MimicBoy {
-    void CPU::ldr8r8(Register8& dest, Register8& src) {
+    void CPU::ldr8r8(Register8 &dest, Register8 &src) {
         dest.set(src.get());
         ++this->PC;
     }

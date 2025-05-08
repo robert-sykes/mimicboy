@@ -33,20 +33,21 @@ namespace MimicBoy {
         [[nodiscard]] Register16 getDE() const { return DE; }
         [[nodiscard]] Register16 getHL() const { return HL; }
 
-        Register8& getA() { return AF.getHigh(); }
-        Register8& getF() { return AF.getLow(); }
-        Register8& getB() { return BC.getHigh(); }
-        Register8& getC() { return BC.getLow(); }
-        Register8& getD() { return DE.getHigh(); }
-        Register8& getE() { return DE.getLow(); }
-        Register8& getH() { return HL.getHigh(); }
-        Register8& getL() { return HL.getLow(); }
+        Register8 &getA() { return AF.getHigh(); }
+        Register8 &getF() { return AF.getLow(); }
+        Register8 &getB() { return BC.getHigh(); }
+        Register8 &getC() { return BC.getLow(); }
+        Register8 &getD() { return DE.getHigh(); }
+        Register8 &getE() { return DE.getLow(); }
+        Register8 &getH() { return HL.getHigh(); }
+        Register8 &getL() { return HL.getLow(); }
 
         void execute();
     private:
         void nop();
 
-        void ldr8r8(Register8& dest, Register8& src);
+        void ldr8r8(Register8 &dest, Register8 &src);
+
         void ldr8r16(std::uint8_t left, std::uint8_t right);
     };
 }

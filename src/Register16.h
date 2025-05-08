@@ -14,7 +14,7 @@ namespace MimicBoy {
 
         Register16(uint16_t value) { set(value); }
 
-        Register16& operator=(uint16_t value) {
+        Register16 &operator=(uint16_t value) {
             set(value);
             return *this;
         }
@@ -28,8 +28,8 @@ namespace MimicBoy {
             low.set(value & 0xFF);
         }
 
-        Register8& getHigh() { return high; }
-        Register8& getLow() { return low; }
+        Register8 &getHigh() { return high; }
+        Register8 &getLow() { return low; }
     };
 }
 
